@@ -23,6 +23,30 @@ points import the exact same `lib/models/models.dart` (data structures
 single source of truth for data shapes and business rules, not two
 implementations drifting apart.
 
+## Screenshots
+
+| Role Selection | HR Approvals |
+|---|---|
+| ![Role picker](docs/screenshots/role-picker.png) | ![HR Approvals](docs/screenshots/hr-approvals.png) |
+
+| Contractor Portal — Today's Service | Admin — Contractor Status |
+|---|---|
+| ![Contractor today](docs/screenshots/contractor-today.png) | ![Contractor status](docs/screenshots/contractor-status.png) |
+
+| Add Contractor — with contract validity |
+|---|
+| ![Contractor mapping](docs/screenshots/contractor-mapping.png) |
+
+## Key Features
+
+- 🔐 Role-based workflow: Initiator → Approver → HR → Contractor
+- 📊 Multi-status approval pipeline with rejection remarks tracking
+- 🍽️ Real-time kitchen status tracking (Received → Prepared → Served)
+- 📅 Contractor contract validity tracking with expiry detection
+- 📱 Two separately-deployable apps (Admin + Contractor Portal) sharing one Flutter codebase
+- 🎨 Custom Material Design theming matching corporate branding
+
+
 ## Why this structure
 
 - **Separate app, correct permissions story.** The Contractor is an
