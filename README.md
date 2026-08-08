@@ -22,6 +22,9 @@ points import the exact same `lib/models/models.dart` (data structures
 `lib/widgets/shared_widgets.dart` (common UI pieces) — so there's a
 single source of truth for data shapes and business rules, not two
 implementations drifting apart.
+## Demo
+
+https://github.com/user-attachments/assets/fa537c23-6619-481b-a45c-0004e6ed9a4c
 
 ## Screenshots
 
